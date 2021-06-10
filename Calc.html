@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <center>
+    <center>
+       <div class="name">
+           JS Calculator
+       </div>
+        <div class="result">
+            <form class="screen" name = "form">
+                <input name="display">
+            </form>
+        </div>
+    </center>
+    <center>
+   <div class="operations">
+   <div>
+    <button id="clear" onclick="Clear()">AC</button>
+    </div>
+   </div>
+    </center>
+
+    <center>
+<div class="numbers">
+    <div>
+        <button class="one" value="7"onclick="addnum(value)">7</button>
+        <button class="one" value="8"onclick="addnum(value)">8</button>
+        <button id="nine" value="9"onclick="addnum(value)">9</button>
+        <button class ="op" id="plus" value="+"onclick="addnum(value)">+</button>
+
+
+    </div>
+    <div>
+    <button class="one" value="4"onclick="addnum(value)">4</button>
+    <button class="one" value="5"onclick="addnum(value)">5</button>
+    <button class="one" value="6"onclick="addnum(value)">6</button>
+    <button class ="op" id="minus" value="-" onclick="addnum(value)">-</button>
+
+
+
+    </div>
+    <div>
+     <button class="one" value="1" onclick="addnum(value)">1</button>
+     <button class="one" value="2"onclick="addnum(value)">2</button>
+     <button class="one" value="3" onclick="addnum(value)">3</button>
+     <button class ="op" id="multiply" value="*" onclick="addnum(value)">*</button>
+
+
+    </div>
+    <div>    
+   
+    <button id="zero" value="0"onclick="addnum(value)">0</button>
+
+    <button id="dec" value="."onclick="addnum(value)">.</button>
+
+    <button class ="op" id="equal" value="=" onclick="equal()">=</button>
+    <button class ="op" id="divided" value="/" onclick="addnum(value)">/</button>
+
+
+</div>
+   </div>
+</center>
+</center>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
